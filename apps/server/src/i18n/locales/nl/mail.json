@@ -1,0 +1,15 @@
+{
+  "common": {
+    "footer": "Verstuurd door {appName}.",
+    "rights": "Alle rechten voorbehouden."
+  },
+
+  "welcome": {
+    "subject": "Welkom bij {appName}",
+    "title": "Welkom bij AVK!",
+    "greeting": "Beste {name},",
+    "body": "Uw account is aangemaakt. Klik op de onderstaande knop om uw wachtwoord in te stellen en uw account te activeren.",
+    "button": "Account activeren",
+    "noteExpiry": "Deze activatielink is geldig voor {hours} uur."
+  }
+}

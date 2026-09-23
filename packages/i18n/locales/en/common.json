@@ -1,0 +1,41 @@
+{
+  "unknown": "Unknown",
+
+  "actions": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "save_draft": "Save as draft",
+    "publish": "Publish",
+    "continue": "Continue",
+    "reload": "Reload"
+  },
+
+  "status": {
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error"
+  },
+
+  "fields": {
+    "email": "Email"
+  },
+
+  "format": {
+    "date": "{{- date, datetime}}"
+  },
+
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {{page}}",
+    "page_of": "Page {{page}} of {{pages}}"
+  },
+
+  "offline": {
+    "banner": "You are offline.",
+    "no_connection": "No internet connection",
+    "no_connection_detail": "Please connect to the internet to continue."
+  }
+}

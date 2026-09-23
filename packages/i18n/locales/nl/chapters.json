@@ -1,0 +1,63 @@
+{
+  "form": {
+    "add_title_placeholder": "Voeg een titel toe...",
+    "title_label": "Hoofdstuktitel...",
+    "content_label": "Hoofdstukinhoud",
+    "text_placeholder": "Schrijf hier de hoofdstuktekst..."
+  },
+
+  "actions": {
+    "add_chapter": "Hoofdstuk toevoegen",
+    "select_file_to_upload": "Bestand selecteren om te uploaden",
+    "open_file": "Bestand openen",
+    "drag_content": "Inhoudsblok slepen",
+    "drag_chapter": "Hoofdstuk slepen",
+    "delete_content": "Inhoudsblok verwijderen",
+    "edit": "Hoofdstuk bewerken"
+  },
+
+  "content_types": {
+    "download_materials": "Leer materialen downloaden",
+    "text": "Tekst",
+    "pdf": "PDF",
+    "pptx": "PowerPoint",
+    "image": "Afbeelding",
+    "video": "Video"
+  },
+
+  "display": {
+    "label": "Hoofdstuk {{number}}",
+    "list": "Hoofdstukken",
+    "count_one": "{{count}} hoofdstuk",
+    "count_other": "{{count}} hoofdstukken",
+    "progress": "{{completed}} / {{total}} hoofdstukken voltooid",
+    "none_available": "Er zijn geen hoofdstukken beschikbaar voor deze cursus."
+  },
+
+  "confirm": {
+    "delete": {
+      "message": "Weet je zeker dat je dit hoofdstuk wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "title": "Hoofdstuk verwijderen?",
+      "description": "Weet je zeker dat je dit hoofdstuk wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "label": "Typ 'delete' om te bevestigen"
+    }
+  },
+
+  "messages": {
+    "success": {
+      "created": "Hoofdstuk is succesvol toegevoegd!",
+      "deleted": "Hoofdstuk is succesvol verwijderd!",
+      "updated": "Hoofdstuk is succesvol bijgewerkt!",
+      "reordered": "Hoofdstukvolgorde is opgeslagen."
+    },
+    "error": {
+      "loading": "Er is iets misgegaan bij het laden van deze hoofdstuk. Probeer het opnieuw.",
+      "deleting": "Het hoofdstuk kon niet worden verwijderd.",
+      "not_found": "Hoofdstuk niet gevonden",
+      "invalid_type": "Ongeldig bestandstype.",
+      "exceeded_max_size": "Maximale bestandsgrootte overschreden.",
+      "mutating": "Er is een onverwachte fout opgetreden tijdens het opslaan van de hoofdstukinhoud.",
+      "partial_update_failed": "Gedeeltelijke update mislukt."
+    }
+  }
+}

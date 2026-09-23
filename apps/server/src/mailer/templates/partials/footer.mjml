@@ -1,0 +1,29 @@
+<mj-section background-color="#999999" padding="28px 40px">
+  <mj-column>
+    <mj-image
+      src="cid:avk-logo-white"
+      alt="AVK"
+      width="80px"
+      align="center"
+      padding="0 0 14px"
+    />
+
+    <mj-text
+      color="#DDDDDD"
+      font-size="11px"
+      align="center"
+      padding="0 0 4px"
+    >
+      {{t "mail.common.footer" appName=appName}}
+    </mj-text>
+
+    <mj-text
+      color="#DDDDDD"
+      font-size="11px"
+      align="center"
+      padding="0"
+    >
+      &copy; {{year}} AVK Group A/S &bull; {{t "mail.common.rights"}}
+    </mj-text>
+  </mj-column>
+</mj-section>

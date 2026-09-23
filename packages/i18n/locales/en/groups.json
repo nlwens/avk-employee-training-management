@@ -1,0 +1,38 @@
+{
+  "create_heading": "Create new group",
+  "empty": "No groups have been created yet.",
+
+  "form": {
+    "name_label": "Group name",
+    "search_placeholder": "Search employees",
+    "select_employee": "Select {{name}} {{surname}}"
+  },
+
+  "actions": {
+    "add": "Add group",
+    "edit": "Edit group",
+    "delete": "Delete group",
+    "open_actions": "Open actions for {{group}}"
+  },
+
+  "confirm": {
+    "delete": {
+      "title": "Delete group",
+      "description": "Are you sure you want to delete group \"{{name}}\"? The group must have no employees assigned before it can be deleted."
+    }
+  },
+
+  "messages": {
+    "success": {
+      "created": "Group was created successfully!",
+      "updated": "Group was updated successfully!",
+      "deleted": "Group was deleted successfully!"
+    },
+    "error": {
+      "loading": "Something went wrong while loading groups. Please try again.",
+      "create_failed": "Could not create the group.",
+      "name_taken": "A group with this name already exists.",
+      "delete_not_empty": "The group must have no employees or courses assigned before it can be deleted."
+    }
+  }
+}

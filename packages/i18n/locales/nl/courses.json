@@ -1,0 +1,119 @@
+{
+  "list": {
+    "published": "Gepubliceerde cursussen",
+    "published_with_count": "Gepubliceerde cursussen ({{count}})",
+    "drafts_with_count": "Concepten ({{count}})",
+    "open": "{{title}} openen",
+    "search": "Cursussen zoeken",
+    "completed_heading": "Afgeronde cursussen",
+
+    "descriptions": {
+      "overview": "Alle cursussen waartoe je toegang hebt.",
+      "in_progress": "Cursussen die je bent begonnen maar nog niet hebt afgerond.",
+      "completed": "Cursussen die je volledig hebt afgerond."
+    },
+
+    "empty": {
+      "overview": "Er zijn nog geen cursussen voor je beschikbaar.",
+      "in_progress": "Je bent nog niet aan een cursus begonnen. Begin een cursus en deze verschijnt hier.",
+      "completed": "Je hebt nog geen cursussen afgerond. Zodra je een cursus voltooit, verschijnt deze hier.",
+      "search": "Geen cursussen komen overeen met je zoekopdracht.",
+      "none_added": "Er zijn nog geen cursussen toegevoegd.",
+      "browse_link": "Bekijk alle cursussen"
+    }
+  },
+
+  "detail": {
+    "information": "Cursusinformatie",
+    "table_of_contents": "Inhoudsopgave",
+    "last_updated": "Laatst bijgewerkt: {{- date, datetime}}",
+    "start_learning": "Begin met leren",
+    "not_found": "Cursus niet gevonden"
+  },
+
+  "card": {
+    "enrolled_count_one": "{{count}} persoon ingeschreven",
+    "enrolled_count_other": "{{count}} personen ingeschreven",
+    "completed_count": "{{count}} voltooid",
+    "progress_label": "Voortgang voor {{title}}"
+  },
+
+  "dashboard": {
+    "published_courses": "Gepubliceerde cursussen",
+    "average_quiz_score": "Gemiddelde quizscore per cursus",
+    "quiz_score_label": "Gemiddelde quizscore {{name}}",
+    "active_courses": "Actieve cursussen",
+    "average_score_label": "Gemiddelde score {{name}}",
+    "no_published_courses": "Momenteel geen gepubliceerde cursussen."
+  },
+
+  "completion": {
+    "congratulations": "Gefeliciteerd!",
+    "message": "Je hebt de cursus voltooid.",
+    "back": "Terug naar cursussen"
+  },
+
+  "form": {
+    "title": "Cursustitel*",
+    "description": "Beschrijving",
+    "priority": "Prioriteit",
+
+    "priority_options": {
+      "low": "Laag",
+      "medium": "Gemiddeld",
+      "high": "Hoog"
+    },
+
+    "toggle_language": "Wissel taal van cursusinhoud",
+    "create_heading": "Nieuwe cursus maken",
+    "edit_heading": "Cursus bewerken"
+  },
+
+  "groups": {
+    "assign_heading": "Deze cursus is toegewezen aan:",
+    "public_description": "Een cursus zonder toegewezen groepen is toegankelijk voor iedereen."
+  },
+
+  "actions": {
+    "edit": "Bewerken",
+    "create": "Maken",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "publish": "Publiceren",
+    "archive": "Archiveren"
+  },
+
+  "confirm": {
+    "delete": {
+      "message": "Weet je zeker dat je deze cursus wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "title": "Cursus verwijderen?",
+      "description": "Weet je zeker dat je deze cursus wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "label": "Typ 'delete' om te bevestigen"
+    },
+    "publish": {
+      "message": "Weet je zeker dat je deze cursus wilt publiceren?",
+      "public_message": "Aan deze cursus zijn geen groepen toegewezen, dus deze wordt toegankelijk voor iedereen. Weet je zeker dat je deze als openbare cursus wilt publiceren?"
+    }
+  },
+
+  "messages": {
+    "success": {
+      "created": "Cursus is succesvol toegevoegd!",
+      "updated": "Cursus is succesvol bijgewerkt!",
+      "deleted": "Cursus is succesvol verwijderd!",
+      "published": "Cursus is succesvol gepubliceerd!",
+      "archived": "Cursus is succesvol gearchiveerd!",
+      "groups_saved": "Groepstoewijzingen zijn opgeslagen."
+    },
+    "error": {
+      "loading_all": "Kon cursussen niet laden. Herlaad de pagina.",
+      "loading": "Kon deze cursus niet laden. Herlaad de pagina.",
+      "loading_completed_chapters": "Kon uw voortgang niet laden. Herlaad de pagina.",
+      "saving": "Kon de cursus niet opslaan. Controleer je invoer.",
+      "forbidden": "Je hebt geen toestemming om deze cursus te bewerken.",
+      "not_found": "Deze cursus bestaat niet meer.",
+      "not_found_changes_not_saved": "Deze cursus bestaat niet meer. Je wijzigingen zijn niet opgeslagen.",
+      "deleting": "Kon de cursus niet verwijderen."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "c1",
+    "name": "Forklift Safety",
+    "status": "Completed",
+    "score": "5/5",
+    "submission": {
+      "submittedAt": "2026-05-20T10:30:00",
+      "score": "5/5",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What is the maximum safe load capacity?",
+          "options": [
+            { "label": "A", "text": "500 kg" },
+            { "label": "B", "text": "Rated capacity on the nameplate" },
+            { "label": "C", "text": "1000 kg" },
+            { "label": "D", "text": "Any amount the operator decides" }
+          ],
+          "correctLabel": "B"
+        },
+        {
+          "id": "q2",
+          "text": "When should a pre-operation inspection be done?",
+          "options": [
+            { "label": "A", "text": "Once a week" },
+            { "label": "B", "text": "Before each shift" },
+            { "label": "C", "text": "Only after an incident" },
+            { "label": "D", "text": "Monthly" }
+          ],
+          "correctLabel": "B"
+        },
+        {
+          "id": "q3",
+          "text": "What should you do when carrying a load on a ramp?",
+          "options": [
+            { "label": "A", "text": "Drive with the load facing downhill" },
+            { "label": "B", "text": "Drive as fast as possible" },
+            { "label": "C", "text": "Keep the load facing uphill" },
+            { "label": "D", "text": "Tilt the mast forward" }
+          ],
+          "correctLabel": "C"
+        },
+        {
+          "id": "q4",
+          "text": "What is the correct fork height when traveling?",
+          "options": [
+            { "label": "A", "text": "As high as possible" },
+            { "label": "B", "text": "At eye level" },
+            { "label": "C", "text": "15–20 cm above the ground" },
+            { "label": "D", "text": "It does not matter" }
+          ],
+          "correctLabel": "C"
+        },
+        {
+          "id": "q5",
+          "text": "Who is responsible for forklift safety?",
+          "options": [
+            { "label": "A", "text": "Only the safety officer" },
+            { "label": "B", "text": "The operator and the employer" },
+            { "label": "C", "text": "No one specifically" },
+            { "label": "D", "text": "Only the employer" }
+          ],
+          "correctLabel": "B"
+        }
+      ]
+    }
+  },
+  {
+    "id": "c2",
+    "name": "Fire Safety",
+    "status": "Completed",
+    "score": "5/5",
+    "submission": {
+      "submittedAt": "2026-05-22T09:15:00",
+      "score": "5/5",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What does the acronym PASS stand for?",
+          "options": [
+            { "label": "A", "text": "Pull, Aim, Squeeze, Sweep" },
+            { "label": "B", "text": "Push, Alert, Spray, Stop" },
+            { "label": "C", "text": "Prepare, Activate, Secure, Spray" },
+            { "label": "D", "text": "Pull, Apply, Stand, Sweep" }
+          ],
+          "correctLabel": "A"
+        },
+        {
+          "id": "q2",
+          "text": "What is the first action when discovering a fire?",
+          "options": [
+            { "label": "A", "text": "Try to extinguish it immediately" },
+            { "label": "B", "text": "Activate the fire alarm" },
+            { "label": "C", "text": "Call a colleague" },
+            { "label": "D", "text": "Open all windows" }
+          ],
+          "correctLabel": "B"
+        },
+        {
+          "id": "q3",
+          "text": "Which extinguisher class is used for electrical fires?",
+          "options": [
+            { "label": "A", "text": "Class A" },
+            { "label": "B", "text": "Class B" },
+            { "label": "C", "text": "Class C" },
+            { "label": "D", "text": "Class E" }
+          ],
+          "correctLabel": "C"
+        },
+        {
+          "id": "q4",
+          "text": "How far should you stand from a fire when using an extinguisher?",
+          "options": [
+            { "label": "A", "text": "1 metre" },
+            { "label": "B", "text": "2–3 metres" },
+            { "label": "C", "text": "5–6 metres" },
+            { "label": "D", "text": "10 metres" }
+          ],
+          "correctLabel": "B"
+        },
+        {
+          "id": "q5",
+          "text": "What should you do if you cannot extinguish a fire within 30 seconds?",
+          "options": [
+            { "label": "A", "text": "Use a bigger extinguisher" },
+            { "label": "B", "text": "Keep trying" },
+            { "label": "C", "text": "Evacuate immediately" },
+            { "label": "D", "text": "Pour water on it" }
+          ],
+          "correctLabel": "C"
+        }
+      ]
+    }
+  },
+  {
+    "id": "c3",
+    "name": "First Aid Essentials",
+    "status": "Not completed",
+    "score": "-",
+    "submission": null
+  }
+]

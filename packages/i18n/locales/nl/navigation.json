@@ -1,0 +1,26 @@
+{
+  "links": {
+    "overview": "Overzicht",
+    "my_courses": "Mijn cursussen",
+    "completed_courses": "Afgerond",
+    "all_courses": "Alle cursussen",
+    "courses": "Cursussen",
+    "employees": "Medewerkers",
+    "dashboard": "Dashboard",
+    "logout": "Uitloggen",
+    "settings": "Instellingen",
+    "quiz": "Quiz",
+    "groups": "Groepen"
+  },
+
+  "back_to": {
+    "dashboard": "Terug naar dashboard",
+    "home": "Terug naar startpagina"
+  },
+
+  "menu": {
+    "open": "Navigatiemenu openen",
+    "title": "Navigatiemenu",
+    "description": "Toegang tot navigatielinks en accountinstellingen."
+  }
+}

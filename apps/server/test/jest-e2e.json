@@ -1,0 +1,31 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "..",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1"
+  },
+  "transform": {
+    "^.+\\.(t|j)s$": [
+      "ts-jest",
+      {
+        "tsconfig": "<rootDir>/tsconfig.e2e.json"
+      }
+    ]
+  },
+  "transformIgnorePatterns": ["node_modules/(?!@faker-js/faker)"],
+  "collectCoverage": true,  
+  "coverageReporters": ["cobertura", "lcov", "text", "text-summary"],
+  "collectCoverageFrom": [
+   "<rootDir>/src/**"
+  ],
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/src/main.ts",
+    "<rootDir>/src/app.module.ts",
+    "<rootDir>/src/database/*",
+    "<rootDir>/src/seeder/seed.ts",
+    "<rootDir>/src/seeder/seeder.module.ts"
+  ],
+  "coverageDirectory": "<rootDir>/test/coverage-e2e"
+}

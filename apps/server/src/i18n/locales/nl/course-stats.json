@@ -1,0 +1,9 @@
+{
+  "columns": {
+    "course_name": "Cursusnaam",
+    "completed_chapters": "Voltooide hoofdstukken",
+    "total_chapters": "Hoofdstukken in cursus",
+    "correct_answers": "Correct beantwoorde vragen",
+    "total_questions": "Vragen in cursus"
+  }
+}

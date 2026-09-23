@@ -1,0 +1,27 @@
+{
+  "name": "auth-context",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "prettier": "@repo/eslint-config/prettier",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "jwt-decode": "^4.0.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "typescript": "^5.7.2",
+    "@turbo/gen": "^2.3.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "react": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  }
+}

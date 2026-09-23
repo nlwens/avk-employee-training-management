@@ -1,0 +1,68 @@
+{
+  "title": "Quiz",
+
+  "taking": {
+    "start": "Start quiz",
+    "question": "Question {{number}}",
+    "check": "Check",
+    "next": "Next",
+    "submit": "Submit",
+    "previous": "Previous question",
+    "locked": "You can no longer change your answer."
+  },
+
+  "stats": {
+    "title": "Quiz Statistics",
+    "question_count": "Questions",
+    "attempts": "Attempts",
+    "average_score": "Average score"
+  },
+
+  "summary": {
+    "title": "Quiz summary",
+    "tabs_navigation": "Tabs navigation",
+    "users": "Users",
+    "questions_tab": "Questions",
+    "name_column": "Name",
+    "view_answers": "View all users' answers",
+    "score": "Score",
+    "submission_date": "Submission date",
+    "question_label": "Question {{number}}: [{{question}}]",
+    "correct_answers": "{{value}} answered correctly",
+    "no_questions": "This quiz has no questions yet.",
+    "no_submissions": "No one has completed this quiz yet.",
+    "no_answers": "No one has answered this question yet.",
+
+    "messages": {
+      "error": {
+        "loading": "Could not load quiz questions. Please reload the page.",
+        "loading_answers": "Could not load users' answers."
+      }
+    }
+  },
+
+  "editor": {
+    "write_question": "Write your question here...",
+    "write_explanation": "Write an explanation for the correct answer here...",
+    "select_correct_answer": "Click to select the correct answer",
+    "mark_option_correct": "Mark option {{number}} as correct",
+    "delete_option": "Delete option {{number}}",
+    "add_choice": "Add choice",
+    "add_question": "Add question",
+    "drag_question": "Drag question",
+    "delete_question": "Delete question {{number}}",
+    "toggle_language": "Switch quiz content language",
+    "edit": "Edit",
+
+    "messages": {
+      "success": {
+        "updated": "Quiz questions updated successfully."
+      },
+      "error": {
+        "updating": "Could not update the quiz questions.",
+        "partial_update_failed": "Some quiz question changes could not be saved.",
+        "partial_update_result": "Completed: {{completed}}, Failed: {{failed}}"
+      }
+    }
+  }
+}

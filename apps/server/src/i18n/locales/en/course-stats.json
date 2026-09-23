@@ -1,0 +1,9 @@
+{
+  "columns": {
+    "course_name": "Course name",
+    "completed_chapters": "Completed chapters",
+    "total_chapters": "Chapters in course",
+    "correct_answers": "Correctly answered questions",
+    "total_questions": "Questions in course"
+  }
+}

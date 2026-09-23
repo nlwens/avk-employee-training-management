@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Introduction to React",
+    "numberOfChapters": 12,
+    "completedChapters": 12
+  },
+  {
+    "id": "2",
+    "name": "Advanced Node.js",
+    "numberOfChapters": 15,
+    "completedChapters": 5
+  },
+  {
+    "id": "3",
+    "name": "Database Design Fundamentals",
+    "numberOfChapters": 8,
+    "completedChapters": 0
+  },
+  {
+    "id": "4",
+    "name": "Mastering Tailwind CSS",
+    "numberOfChapters": 10,
+    "completedChapters": 8
+  }
+]

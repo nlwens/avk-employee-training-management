@@ -1,0 +1,41 @@
+{
+  "unknown": "Onbekend",
+
+  "actions": {
+    "add": "Toevoegen",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "saving": "Bezig met opslaan...",
+    "save_draft": "Opslaan als concept",
+    "publish": "Publiceren",
+    "continue": "Doorgaan",
+    "reload": "Opnieuw laden"
+  },
+
+  "status": {
+    "loading": "Laden...",
+    "success": "Succes",
+    "error": "Fout"
+  },
+
+  "fields": {
+    "email": "E-mail"
+  },
+
+  "format": {
+    "date": "{{- date, datetime}}"
+  },
+
+  "pagination": {
+    "previous": "Vorige",
+    "next": "Volgende",
+    "page": "Pagina {{page}}",
+    "page_of": "Pagina {{page}} van {{pages}}"
+  },
+
+  "offline": {
+    "banner": "U bent offline.",
+    "no_connection": "Geen internetverbinding",
+    "no_connection_detail": "Verbind met het internet om verder te gaan."
+  }
+}

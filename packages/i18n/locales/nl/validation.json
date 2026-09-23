@@ -1,0 +1,75 @@
+{
+  "email": {
+    "invalid": "Ongeldig e-mailadres",
+    "required": "E-mail is verplicht"
+  },
+
+  "password": {
+    "required": "Wachtwoord is verplicht",
+    "min_length": "Wachtwoord moet minimaal 8 tekens lang zijn"
+  },
+
+  "current_password": {
+    "required": "Huidig wachtwoord is verplicht",
+    "min_length": "Wachtwoord moet minimaal 8 tekens lang zijn"
+  },
+
+  "confirm_password": {
+    "required": "Bevestig wachtwoord is verplicht",
+    "min_length": "Wachtwoord moet minimaal 8 tekens lang zijn",
+    "match": "Wachtwoorden komen niet overeen"
+  },
+
+  "name": {
+    "required": "Naam is verplicht",
+    "min_length": "Naam moet minimaal 2 tekens lang zijn",
+    "max_length": "Naam mag maximaal 50 tekens lang zijn"
+  },
+
+  "surname": {
+    "required": "Achternaam is verplicht",
+    "min_length": "Achternaam moet minimaal 2 tekens lang zijn",
+    "max_length": "Achternaam mag maximaal 50 tekens lang zijn"
+  },
+
+  "course_title": {
+    "required": "Cursustitel is verplicht",
+    "min_length": "Cursustitel moet minimaal 3 tekens lang zijn",
+    "max_length": "Cursustitel mag maximaal 100 tekens lang zijn"
+  },
+
+  "chapter_title": {
+    "required": "Hoofdstuktitel is verplicht",
+    "min_length": "Hoofdstuktitel moet minimaal 3 tekens lang zijn",
+    "max_length": "Hoofdstuktitel mag maximaal 100 tekens lang zijn"
+  },
+
+  "question": {
+    "required": "Vraag is verplicht",
+    "min_length": "Vraag moet minimaal 3 tekens lang zijn",
+    "max_length": "Vraag mag maximaal 500 tekens lang zijn"
+  },
+
+  "explanation": {
+    "min_length": "Uitleg moet minimaal 5 tekens lang zijn"
+  },
+
+  "option_text": {
+    "required": "Optietekst is verplicht",
+    "min_length": "Optietekst moet minimaal 2 tekens lang zijn",
+    "max_length": "Optietekst mag maximaal 100 tekens lang zijn"
+  },
+
+  "content": {
+    "required": "Inhoud is verplicht"
+  },
+
+  "group": {
+    "required": "Selecteer minimaal één groep",
+    "name_required": "Groepsnaam is verplicht",
+    "name_too_long": "Groepsnaam mag maximaal 30 tekens bevatten"
+  },
+  "correct_answer": {
+    "required": "Selecteer het juiste antwoord"
+  }
+}

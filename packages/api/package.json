@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "prettier": "@repo/eslint-config/prettier",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.100.9",
+    "auth-context": "*",
+    "axios": "^1.16.0",
+    "i18n": "*",
+    "react-router-dom": "^7.15.0",
+    "ui": "*",
+    "query-string": "^9.4.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@turbo/gen": "^2.3.3",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "react": "^19.0.0",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "list": {
+    "published": "Published courses",
+    "published_with_count": "Published courses ({{count}})",
+    "drafts_with_count": "Drafts ({{count}})",
+    "open": "Open {{title}}",
+    "search": "Search courses",
+    "completed_heading": "Completed courses",
+
+    "descriptions": {
+      "overview": "All courses you have access to.",
+      "in_progress": "Courses you have started but not yet finished.",
+      "completed": "Courses you have fully finished."
+    },
+
+    "empty": {
+      "overview": "There are no courses available to you yet.",
+      "in_progress": "You have not started any courses yet. Start a course and it will appear here.",
+      "completed": "You have not finished any courses yet. Once you complete a course, it will appear here.",
+      "search": "No courses match your search.",
+      "none_added": "No courses have been added yet.",
+      "browse_link": "Browse all courses"
+    }
+  },
+
+  "detail": {
+    "information": "Course information",
+    "table_of_contents": "Table of Contents",
+    "last_updated": "Last updated: {{- date, datetime}}",
+    "start_learning": "Start learning",
+    "not_found": "Course not found"
+  },
+
+  "card": {
+    "enrolled_count_one": "{{count}} person enrolled",
+    "enrolled_count_other": "{{count}} people enrolled",
+    "completed_count": "{{count}} completed",
+    "progress_label": "Completion progress for {{title}}"
+  },
+
+  "dashboard": {
+    "published_courses": "Published courses",
+    "average_quiz_score": "Average quiz score per course",
+    "quiz_score_label": "{{name}} average quiz score",
+    "active_courses": "Courses active",
+    "average_score_label": "{{name}} average score",
+    "no_published_courses": "Currently no published courses."
+  },
+
+  "completion": {
+    "congratulations": "Congratulations!",
+    "message": "You have completed the course.",
+    "back": "Back to courses"
+  },
+
+  "form": {
+    "title": "Course title*",
+    "description": "Description",
+    "priority": "Priority",
+
+    "priority_options": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+
+    "toggle_language": "Switch course content language",
+    "create_heading": "Create new course",
+    "edit_heading": "Edit course"
+  },
+
+  "groups": {
+    "assign_heading": "This course is assigned to:",
+    "public_description": "A course with no groups assigned is accessible to everyone."
+  },
+
+  "actions": {
+    "edit": "Edit",
+    "create": "Create",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "publish": "Publish",
+    "archive": "Archive"
+  },
+
+  "confirm": {
+    "delete": {
+      "message": "Are you sure you want to delete this course? This action cannot be undone.",
+      "title": "Delete course?",
+      "description": "Are you sure you want to delete this course? This action cannot be undone.",
+      "label": "Type 'delete' to confirm"
+    },
+    "publish": {
+      "message": "Are you sure you want to publish this course?",
+      "public_message": "This course has no groups assigned, so it will be accessible to everyone. Are you sure you want to publish it as a public course?"
+    }
+  },
+
+  "messages": {
+    "success": {
+      "created": "Course was added successfully!",
+      "updated": "Course was updated successfully!",
+      "deleted": "Course was deleted successfully!",
+      "published": "Course was published successfully!",
+      "archived": "Course was archived successfully!",
+      "groups_saved": "Group assignments were saved successfully."
+    },
+    "error": {
+      "loading_all": "Could not load courses. Please reload the page.",
+      "loading": "Could not load this course. Please reload the page.",
+      "loading_completed_chapters": "Could not load your progress. Please reload the page.",
+      "saving": "Could not save the course. Please review your input.",
+      "forbidden": "You do not have permission to update this course.",
+      "not_found": "This course no longer exists.",
+      "not_found_changes_not_saved": "This course no longer exists. Your changes were not saved.",
+      "deleting": "Could not delete the course."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "create_heading": "Nieuwe groep maken",
+  "empty": "Er zijn nog geen groepen aangemaakt.",
+
+  "form": {
+    "name_label": "Groepsnaam",
+    "search_placeholder": "Medewerkers zoeken",
+    "select_employee": "Selecteer {{name}} {{surname}}"
+  },
+
+  "actions": {
+    "add": "Groep toevoegen",
+    "edit": "Groep bewerken",
+    "delete": "Groep verwijderen",
+    "open_actions": "Acties openen voor {{group}}"
+  },
+
+  "confirm": {
+    "delete": {
+      "title": "Groep verwijderen",
+      "description": "Weet je zeker dat je groep \"{{name}}\" wilt verwijderen? De groep mag geen medewerkers toegewezen hebben voordat deze kan worden verwijderd."
+    }
+  },
+
+  "messages": {
+    "success": {
+      "created": "Groep is succesvol aangemaakt!",
+      "updated": "Groep is succesvol bijgewerkt!",
+      "deleted": "Groep is succesvol verwijderd!"
+    },
+    "error": {
+      "loading": "Er is iets misgegaan bij het laden van groepen. Probeer het opnieuw.",
+      "create_failed": "Kon de groep niet aanmaken.",
+      "name_taken": "Er bestaat al een groep met deze naam.",
+      "delete_not_empty": "De groep moet geen medewerkers of cursussen hebben voordat deze kan worden verwijderd."
+    }
+  }
+}

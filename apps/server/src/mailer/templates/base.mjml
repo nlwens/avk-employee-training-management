@@ -1,0 +1,42 @@
+<mjml>
+  <mj-head>
+    <mj-include path="./partials/head.mjml" />
+    <mj-preview>{{preview}}</mj-preview>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <mj-include path="./partials/header.mjml" />
+
+    <mj-section background-color="#FFFFFF" padding="40px 40px 24px">
+      <mj-column>
+        {{#if title}}
+          <mj-text color="#002395" font-size="22px" font-weight="bold" line-height="1.3" padding="0 0 20px">
+            {{title}}
+          </mj-text>
+        {{/if}}
+
+        {{#each paragraphs}}
+          <mj-text>{{this}}</mj-text>
+        {{/each}}
+
+        {{#each buttons}}
+          <mj-button href="{{href}}">{{label}}</mj-button>
+        {{/each}}
+      </mj-column>
+    </mj-section>
+
+    {{#if notes}}
+      <mj-section background-color="#FFFFFF" padding="0 40px 40px">
+        <mj-column>
+          <mj-divider />
+
+          {{#each notes}}
+            <mj-text color="#666666" font-size="13px" padding="0 0 8px">{{this}}</mj-text>
+          {{/each}}
+        </mj-column>
+      </mj-section>
+    {{/if}}
+
+    {{> footer}}
+  </mj-body>
+</mjml>

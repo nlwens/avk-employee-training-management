@@ -1,0 +1,108 @@
+{
+  "title": "Employees",
+
+  "table": {
+    "name": "Name",
+    "surname": "Surname",
+    "groups": "Group(s)",
+    "created_at": "Registered date",
+    "none_found": "No employees found"
+  },
+
+  "filters": {
+    "search_user": "Search name",
+    "sort": "Sort",
+    "all": "All"
+  },
+
+  "actions": {
+    "edit": "Edit {{name}} {{surname}}",
+    "view_details": "View details of {{name}} {{surname}}"
+  },
+
+  "dashboard": {
+    "total": "Total employees",
+    "groups": "Groups"
+  },
+
+  "detail": {
+    "placeholder": "Edit functionality will be available in a future update.",
+    "course_name": "Course name",
+    "status": "Status",
+    "score": "Score",
+    "submitted": "Submitted: {{- date, datetime}}",
+    "no_submission": "No submission available.",
+    "select_course": "Select a course to view submission details.",
+    "status_completed": "Completed",
+    "status_in_progress": "In progress",
+    "status_not_started": "Not started",
+    "selected_answer": "Selected",
+    "no_completed_courses": "The employee hasn't completed any courses.",
+
+    "actions": {
+      "edit": "Edit",
+      "download": "Export results",
+      "load_more_courses": "Load more courses",
+      "delete_all_answers": "Reset quiz progress"
+    },
+
+    "confirm": {
+      "delete_answers": {
+        "title": "Reset quiz progress",
+        "description": "Are you sure you want to reset the quiz progress for this user for this course?"
+      }
+    },
+
+    "messages": {
+      "success": {
+        "answers_deleted": "All quiz answers have been deleted successfully."
+      }
+    }
+  },
+
+  "form": {
+    "create_heading": "Create new user",
+    "edit_heading": "Edit user",
+    "name_placeholder": "e.g., John",
+    "surname_placeholder": "e.g., Smith",
+    "email_placeholder": "e.g., example@gmail.com",
+    "password_label": "Password",
+    "password_description": "Optionally update the employee's password. Leave empty to keep the current password.",
+    "password_placeholder": "Enter a password...",
+    "locale_label": "Language",
+    "is_administrator": "Is administrator",
+    "search_groups_placeholder": "Search groups...",
+    "no_groups_found": "No groups found.",
+
+    "actions": {
+      "delete_user": "Delete user"
+    },
+
+    "confirm": {
+      "delete": {
+        "title": "Delete user",
+        "description": "Are you sure you want to delete user \"{{name}}\"?"
+      }
+    },
+
+    "messages": {
+      "success": {
+        "created": "Employee account has been created successfully.",
+        "updated": "Employee account has been updated successfully.",
+        "deleted": "Employee account has been deleted successfully."
+      },
+      "error": {
+        "create_failed": "Could not create the employee account.",
+        "update_failed": "Could not update the employee account.",
+        "delete_failed": "Could not delete the employee account."
+      }
+    }
+  },
+
+  "messages": {
+    "error": {
+      "loading": "Could not load employees. Please reload the page.",
+      "email_taken": "An employee with this email address already exists."
+    }
+  }
+}

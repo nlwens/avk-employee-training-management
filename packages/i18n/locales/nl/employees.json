@@ -1,0 +1,108 @@
+{
+  "title": "Medewerkers",
+
+  "table": {
+    "name": "Naam",
+    "surname": "Achternaam",
+    "groups": "Groep(en)",
+    "created_at": "Geregistreerd datum",
+    "none_found": "Geen medewerkers gevonden"
+  },
+
+  "filters": {
+    "search_user": "Naam zoeke",
+    "sort": "Sorteren",
+    "all": "Alle"
+  },
+
+  "actions": {
+    "edit": "{{name}} {{surname}} bewerken",
+    "view_details": "Bekijk de details van {{name}} {{surname}}"
+  },
+
+  "dashboard": {
+    "total": "Totaal medewerkers",
+    "groups": "Groepen"
+  },
+
+  "detail": {
+    "placeholder": "Bewerkfunctionaliteit wordt beschikbaar in een toekomstige update.",
+    "course_name": "Cursusnaam",
+    "status": "Status",
+    "score": "Score",
+    "submitted": "Ingediend: {{- date, datetime}}",
+    "no_submission": "Geen indiening beschikbaar.",
+    "select_course": "Selecteer een cursus om de indieningsgegevens te bekijken.",
+    "status_completed": "Voltooid",
+    "status_in_progress": "Bezig",
+    "status_not_started": "Niet gestart",
+    "selected_answer": "Geselecteerd",
+    "no_completed_courses": "De medewerker heeft nog geen cursussen voltooid.",
+
+    "actions": {
+      "edit": "Bewerken",
+      "download": "Resultaten exporteren",
+      "load_more_courses": "Meer cursussen laden",
+      "delete_all_answers": "Quiz voortgang resetten"
+    },
+
+    "confirm": {
+      "delete_answers": {
+        "title": "Quiz voortgang resetten",
+        "description": "Weet je zeker dat je de quiz voortgang voor deze medewerker voor deze cursus wilt resetten?"
+      }
+    },
+
+    "messages": {
+      "success": {
+        "answers_deleted": "Alle quizantwoorden zijn succesvol verwijderd."
+      }
+    }
+  },
+
+  "form": {
+    "create_heading": "Nieuwe gebruiker maken",
+    "edit_heading": "Gebruiker bewerken",
+    "name_placeholder": "bijv. John",
+    "surname_placeholder": "bijv. Smith",
+    "email_placeholder": "bijv. example@gmail.com",
+    "password_label": "Wachtwoord",
+    "password_description": "Werk optioneel het wachtwoord van de medewerker bij. Laat leeg om het huidige wachtwoord te behouden.",
+    "password_placeholder": "Voer een wachtwoord in...",
+    "locale_label": "Taal",
+    "is_administrator": "Is beheerder",
+    "search_groups_placeholder": "Zoek groepen...",
+    "no_groups_found": "Geen groepen gevonden.",
+
+    "actions": {
+      "delete_user": "Gebruiker verwijderen"
+    },
+
+    "confirm": {
+      "delete": {
+        "title": "Medewerker verwijderen",
+        "description": "Weet je zeker dat je medewerker \"{{name}}\" wilt verwijderen?"
+      }
+    },
+
+    "messages": {
+      "success": {
+        "created": "Medewerkeraccount is succesvol aangemaakt.",
+        "updated": "Medewerkeraccount is succesvol bijgewerkt.",
+        "deleted": "Medewerkeraccount is succesvol verwijderd."
+      },
+      "error": {
+        "create_failed": "Kon medewerkeraccount niet aanmaken.",
+        "update_failed": "Kon medewerkeraccount niet bijwerken.",
+        "delete_failed": "Kon medewerkeraccount niet verwijderen."
+      }
+    }
+  },
+
+  "messages": {
+    "error": {
+      "loading": "Kon medewerkers niet laden. Herlaad de pagina.",
+      "email_taken": "Er bestaat al een medewerker met dit e-mailadres."
+    }
+  }
+}

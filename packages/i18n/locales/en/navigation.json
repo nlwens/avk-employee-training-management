@@ -1,0 +1,26 @@
+{
+  "links": {
+    "overview": "Overview",
+    "my_courses": "My courses",
+    "completed_courses": "Completed courses",
+    "all_courses": "All courses",
+    "courses": "Courses",
+    "employees": "Employees",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "settings": "Settings",
+    "quiz": "Quiz",
+    "groups": "Groups"
+  },
+
+  "back_to": {
+    "dashboard": "Back to Dashboard",
+    "home": "Back to Home"
+  },
+
+  "menu": {
+    "open": "Open navigation menu",
+    "title": "Navigation Menu",
+    "description": "Access navigation links and account settings."
+  }
+}

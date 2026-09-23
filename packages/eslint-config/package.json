@@ -1,0 +1,28 @@
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "description": "A shared ESLint configuration used across React projects",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./library": "./library.cjs",
+    "./prettier": "./prettier.js",
+    "./react": "./react.js",
+    "./base": "./base.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^2.3.3",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.58.2"
+  }
+}

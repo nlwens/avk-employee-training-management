@@ -1,0 +1,15 @@
+{
+  "common": {
+    "footer": "Sent by {appName}.",
+    "rights": "All rights reserved."
+  },
+
+  "welcome": {
+    "subject": "Welcome to {appName}",
+    "title": "Welcome to AVK!",
+    "greeting": "Dear {name},",
+    "body": "Your account has been created. Click the button below to set your password and activate your account.",
+    "button": "Activate account",
+    "noteExpiry": "This activation link is valid for {hours} hours."
+  }
+}

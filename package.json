@@ -1,0 +1,40 @@
+{
+  "name": "avk-employees-training-management",
+  "version": "0.0.0",
+  "private": true,
+  "license": "proprietary",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test:e2e": "turbo run test:e2e --filter=client-app --filter=client-dashboard --concurrency=1",
+    "test:e2e:ci:app": "turbo run test:e2e:ci --filter=client-app",
+    "test:e2e:ci:dashboard": "turbo run test:e2e:ci --filter=client-dashboard",
+    "test:e2e:ui": "turbo run test:e2e:ui --filter=client-app --filter=client-dashboard",
+    "test:component": "turbo run test:component --filter=client-app --filter=client-dashboard",
+    "test:component:coverage": "turbo run test:component:coverage --filter=client-app --filter=client-dashboard",
+    "test:component:watch:app": "turbo run test:component:watch --filter=client-app",
+    "test:component:watch:dashboard": "turbo run test:component:watch --filter=client-dashboard",
+    "docker:dev": "docker compose --env-file apps/server/.env -f docker-compose.yml -f docker-compose.development.yml up -d",
+    "docker:dev:down": "docker compose --env-file apps/server/.env -f docker-compose.yml -f docker-compose.development.yml down",
+    "docker:prod": "docker compose --env-file apps/server/.env -f docker-compose.yml -f docker-compose.production.yml up --build -d",
+    "docker:prod:down": "docker compose --env-file apps/server/.env -f docker-compose.yml -f docker-compose.production.yml down",
+    "docker:prod:validate": "docker compose --env-file apps/server/.env -f docker-compose.yml -f docker-compose.production.yml config"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "prettier": "^3.8.1",
+    "turbo": "^2.8.1"
+  },
+  "packageManager": "npm@11.0.0",
+  "engines": {
+    "node": ">=24"
+  }
+}

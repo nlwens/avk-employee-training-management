@@ -1,0 +1,13 @@
+{
+  "not_found": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die u zoekt bestaat niet of is verplaatst."
+  },
+
+  "session_expired": "Je sessie is verlopen. Log opnieuw in.",
+  "forbidden": "Je hebt geen toestemming om deze actie uit te voeren.",
+  "resource_not_found": "Deze bron bestaat niet meer of is verplaatst.",
+  "resource_gone": "Deze link is verlopen of niet meer geldig.",
+  "conflict": "Dit item bestaat al.",
+  "unexpected": "Er is iets misgegaan. Herlaad de pagina."
+}

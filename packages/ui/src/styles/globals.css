@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Helvetica Neue LT Pro — AVK brand typography */
+@font-face {
+  font-family: "Helvetica Neue LT Pro Bold Condensed";
+  src: url("../../fonts/HelveticaNeueLTProBdCn.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 18%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Pro Light Condensed";
+  src: url("../../fonts/HelveticaNeueLTProLtCn.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 18%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Pro Bold";
+  src: url("../../fonts/HelveticaNeueLTProBd.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 18%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Pro Condensed";
+  src: url("../../fonts/HelveticaNeueLTProCn.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 92%;
+  descent-override: 18%;
+  line-gap-override: 0%;
+}
+
+/*
+ * Safari (macOS + iOS)
+ */
+@supports (font: -apple-system-body) {
+  @font-face {
+    font-family: "Helvetica Neue LT Pro Bold Condensed";
+    src: url("../../fonts/HelveticaNeueLTProBdCn.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 0%;
+    line-gap-override: 0%;
+  }
+
+  @font-face {
+    font-family: "Helvetica Neue LT Pro Light Condensed";
+    src: url("../../fonts/HelveticaNeueLTProLtCn.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 0%;
+    line-gap-override: 0%;
+  }
+
+  @font-face {
+    font-family: "Helvetica Neue LT Pro Bold";
+    src: url("../../fonts/HelveticaNeueLTProBd.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 0%;
+    line-gap-override: 0%;
+  }
+
+  @font-face {
+    font-family: "Helvetica Neue LT Pro Condensed";
+    src: url("../../fonts/HelveticaNeueLTProCn.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    ascent-override: 90%;
+    descent-override: 0%;
+    line-gap-override: 0%;
+  }
+}
+
+@layer base {
+  :root {
+    --font-heading:
+      "Helvetica Neue LT Pro Bold Condensed", "Helvetica Neue", Arial,
+      sans-serif;
+    --font-body: "Helvetica Neue", Arial, sans-serif;
+    --font-label:
+      "Helvetica Neue LT Pro Condensed", "Helvetica Neue", Arial, sans-serif;
+
+    /* AVK brand colors */
+    --avk-blue: #002395;
+    --avk-blue-light: #b9c8f9;
+    --avk-silver: #e7ebee;
+
+    /* App color system */
+    --color-primary-500: #002395;
+    --color-primary-600: #001c78;
+    --color-primary-700: #00165f;
+
+    --color-gray-50: #f8f9fa;
+    --color-gray-100: #f1f3f5;
+    --color-gray-200: #e9ecef;
+    --color-gray-400: #adb5bd;
+    --color-gray-600: #6c757d;
+    --color-gray-700: #adb5bd;
+    --color-gray-800: #343a40;
+    --color-gray-900: #212529;
+    --color-border: #dbdbdb;
+
+    --foreground-rgb: 33, 37, 41;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --tracking-heading: initial;
+    --tracking-body: initial;
+    --tracking-ui: initial;
+    --leading-heading: 1.25;
+    --leading-body: 1.65;
+    --leading-reading: 1.75;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+
+  * {
+    @apply border-border;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  body[data-scroll-locked] {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  body {
+    @apply font-body text-foreground;
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-body);
+    background-color: var(--avk-silver);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-brand-gray-900;
+    line-height: var(--leading-heading);
+    letter-spacing: var(--tracking-heading);
+  }
+
+  p {
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-body);
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  button,
+  [role="button"] {
+    @apply font-button leading-none;
+  }
+
+  /*
+   * Safari-specific font fixes
+   */
+  @supports (font: -apple-system-body) {
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    :where(
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      span,
+      a,
+      li,
+      label,
+      small,
+      strong,
+      em,
+      .font-label,
+      .ui-chip
+    ) {
+      text-box-trim: trim-both;
+      text-box-edge: cap alphabetic;
+    }
+
+    * {
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-label,
+    .ui-chip,
+    .leading-none {
+      line-height: 1;
+    }
+  }
+}
+
+@layer components {
+  .font-label {
+    font-family: var(--font-label);
+    line-height: 1.15;
+    letter-spacing: var(--tracking-ui);
+  }
+
+  .reading-text {
+    line-height: var(--leading-reading);
+    letter-spacing: var(--tracking-body);
+  }
+
+  /* Pills, tags, and other text-on-background UI */
+  .ui-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.15;
+    letter-spacing: var(--tracking-ui);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+/*
+ * Safari-only button
+ */
+@layer utilities {
+  @supports (font: -apple-system-body) {
+    :is(button, [role="button"]) {
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      letter-spacing: var(--tracking-ui);
+      line-height: 1;
+    }
+  }
+}
+
+.gradient {
+  background-image: conic-gradient(
+    rgb(157, 23, 77),
+    rgb(107, 33, 168),
+    rgb(55, 48, 163)
+  );
+}

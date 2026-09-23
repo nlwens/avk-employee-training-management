@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "component-test/**/*.ts",
+    "component-test/**/*.tsx",
+    "../../packages/ui/src/components/routes/ProtectedRoute.tsx"
+  ]
+}

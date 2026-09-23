@@ -1,0 +1,13 @@
+{
+  "not_found": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved."
+  },
+
+  "session_expired": "Your session has expired. Please log in again.",
+  "forbidden": "You do not have permission to perform this action.",
+  "resource_not_found": "This resource no longer exists or has been moved.",
+  "resource_gone": "This link has expired or is no longer valid.",
+  "conflict": "This entry already exists.",
+  "unexpected": "Something went wrong. Please reload the page."
+}

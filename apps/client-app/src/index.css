@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "../../../packages/ui/src/styles/globals.css";
+
+@config "../../../packages/ui/tailwind.config.ts";
+
+/*
+ * --safe-bottom-inset is set to the offline banner height by OfflineBanner
+ * when the device is offline.
+ *
+ * Use the .safe-bottom class instead of Tailwind's bottom classes on any fixed
+ * element that anchors to the bottom of the viewport. Use .safe-bottom-padding
+ * on scrollable content (not viewport-filling layout shells). Both use 1.25rem
+ * spacing when online and add the banner height when offline.
+ */
+:root {
+  --safe-bottom-inset: 0rem;
+}
+
+.safe-bottom {
+  bottom: calc(1.25rem + var(--safe-bottom-inset));
+}
+
+.safe-bottom-padding {
+  padding-bottom: calc(1.25rem + var(--safe-bottom-inset));
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

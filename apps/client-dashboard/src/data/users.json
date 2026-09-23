@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "John",
+      "surname": "Doe",
+      "email": "john.doe@example.com",
+      "admin": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "localeCode": "en",
+      "groups": [{ "id": "group-a", "name": "Group A" }]
+    },
+    {
+      "id": "user-2",
+      "name": "Jane",
+      "surname": "Lee",
+      "email": "jane.lee@example.com",
+      "admin": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "localeCode": "en",
+      "groups": [{ "id": "group-b", "name": "Group B" }]
+    },
+    {
+      "id": "user-3",
+      "name": "Brian",
+      "surname": "Smith",
+      "email": "brian.smith@example.com",
+      "admin": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "localeCode": "en",
+      "groups": [{ "id": "group-c", "name": "Group C" }]
+    },
+    {
+      "id": "user-4",
+      "name": "Alice",
+      "surname": "Black",
+      "email": "alice.black@example.com",
+      "admin": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "localeCode": "en",
+      "groups": [{ "id": "group-a", "name": "Group A" }]
+    },
+    {
+      "id": "user-5",
+      "name": "Jason",
+      "surname": "Brown",
+      "email": "jason.brown@example.com",
+      "admin": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "localeCode": "en",
+      "groups": [{ "id": "group-b", "name": "Group B" }]
+    },
+    {
+      "id": "user-6",
+      "name": "Lily",
+      "surname": "James",
+      "email": "lily.james@example.com",
+      "admin": false,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "localeCode": "en",
+      "groups": [{ "id": "group-c", "name": "Group C" }]
+    }
+  ]
+}

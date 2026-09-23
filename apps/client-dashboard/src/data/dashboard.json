@@ -1,0 +1,16 @@
+{
+  "metrics": [
+    {
+      "label": "Total Employees",
+      "value": 25
+    },
+    {
+      "label": "Courses Active",
+      "value": 6
+    },
+    {
+      "label": "Groups",
+      "value": 3
+    }
+  ]
+}

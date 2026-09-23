@@ -1,0 +1,68 @@
+{
+  "title": "Quiz",
+
+  "taking": {
+    "start": "Start quiz",
+    "question": "Vraag {{number}}",
+    "check": "Controleer",
+    "next": "Volgende",
+    "submit": "Inleveren",
+    "previous": "Vorige vraag",
+    "locked": "Je kunt je antwoord niet meer wijzigen."
+  },
+
+  "stats": {
+    "title": "Quizstatistieken",
+    "question_count": "Vragen",
+    "attempts": "Pogingen",
+    "average_score": "Gemiddelde score"
+  },
+
+  "summary": {
+    "title": "Quizoverzicht",
+    "tabs_navigation": "Tabbladen navigatie",
+    "users": "Gebruikers",
+    "questions_tab": "Vragen",
+    "name_column": "Naam",
+    "view_answers": "Bekijk alle antwoorden van gebruikers",
+    "score": "Score",
+    "submission_date": "Datum van inzending",
+    "question_label": "Vraag {{number}}: [{{question}}]",
+    "correct_answers": "{{value}} correct beantwoord",
+    "no_questions": "Deze quiz heeft nog geen vragen.",
+    "no_submissions": "Niemand heeft deze quiz nog voltooid.",
+    "no_answers": "Niemand heeft deze vraag nog beantwoord.",
+
+    "messages": {
+      "error": {
+        "loading": "Kon de quizvragen niet laden. Herlaad de pagina.",
+        "loading_answers": "Kon de antwoorden van gebruikers niet laden."
+      }
+    }
+  },
+
+  "editor": {
+    "write_question": "Schrijf hier je vraag...",
+    "write_explanation": "Schrijf hier een uitleg voor het juiste antwoord...",
+    "select_correct_answer": "Klik om het juiste antwoord te selecteren",
+    "mark_option_correct": "Markeer optie {{number}} als juist",
+    "delete_option": "Optie {{number}} verwijderen",
+    "add_choice": "Keuze toevoegen",
+    "add_question": "Vraag toevoegen",
+    "drag_question": "Vraag slepen",
+    "delete_question": "Vraag {{number}} verwijderen",
+    "toggle_language": "Wissel taal van quizinhoud",
+    "edit": "Bewerken",
+
+    "messages": {
+      "success": {
+        "updated": "Quizvragen succesvol bijgewerkt."
+      },
+      "error": {
+        "updating": "Kon de quizvragen niet bijwerken.",
+        "partial_update_failed": "Sommige wijzigingen aan de quizvragen konden niet worden opgeslagen.",
+        "partial_update_result": "Voltooid: {{completed}}, Mislukt: {{failed}}"
+      }
+    }
+  }
+}

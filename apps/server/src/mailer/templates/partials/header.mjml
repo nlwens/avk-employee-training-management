@@ -1,0 +1,24 @@
+<mj-section background-color="#002395" padding="20px 40px 0 40px" text-align="left">
+  <mj-column width="120px" vertical-align="middle" padding-bottom="20px" css-class="header-col">
+    <mj-image
+      src="cid:avk-logo-white"
+      alt="AVK"
+      width="100px"
+      align="left"
+      padding="0"
+    />
+  </mj-column>
+
+  <mj-column vertical-align="middle" padding-bottom="20px" css-class="header-col">
+    <mj-text
+      color="#FFFFFF"
+      font-family="Helvetica, Arial, sans-serif"
+      font-size="16px"
+      font-weight="bold"
+      align="left"
+      padding="0"
+    >
+      NEDERLAND BV
+    </mj-text>
+  </mj-column>
+</mj-section>
